@@ -11,6 +11,9 @@ switch ($_GET["file"])
     case "osx-deps-v2":
         $mirrors_file = "releases/mac/osx-dependencies-mirrors.txt";
         break;
+    case "osx-deps-v3":
+        $mirrors_file = "releases/mac/osx-dependencies-mirrors-v3.txt";
+        break;
     case "freetype":
         $mirrors_file = "releases/windows/freetype-mirrors.txt";
         break;
